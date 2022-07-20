@@ -1,0 +1,206 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    scroll-behavior: smooth;
+   background-color: #000000;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* navbar styling*/
+.bg{
+    background-color: black;
+}
+
+.container-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link2:hover{
+    text-decoration: underline;
+   
+}
+.btn2{
+    background-color: #000000;
+    color: #fff;
+    
+}
+
+.btn2:hover{
+    background-color:  gray;
+}
+.bg3:hover{
+    background-color: gray;
+    color: #000000;
+}
+.logoImg{
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+/*  end of navbar styling*/
+
+/*   header styling*/
+.header{
+   background-color: #000000;
+   height: 600px;
+   position: relative;
+  /*margin-top: 50px;*/
+   color: #fff;
+}
+.header-title{
+    text-align: center;
+    margin-top: 80px;
+    font-family: dance;
+}
+
+/*  end of header styling*/
+
+/* card styling*/
+.product-cards, .homecard{
+   background-color: #000000;
+   padding: 6px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   }
+.card11{
+    margin-bottom: 20px;
+    }
+/* media quary for deskop */
+@media (max-width: 1500px) { 
+       .product-cards,.homecard{
+       display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+   
+    .card{
+        text-align: center;
+        
+    }
+    .card11{
+       margin-bottom: 20px;
+       }
+       .card3{
+        margin-top: 20px;
+       }
+       .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+       }
+      
+}
+/* end of media quary for desktop*/
+/*  media quary for mobile*/
+@media (max-width: 1000px) { 
+    .product-cards,.homecard{
+        display: block;
+        padding: 0.75rem;
+      
+       }
+      
+}
+
+/* end of media quary for mobile */
+.card{
+    width: 18rem;
+   max-width: 100%;
+   border-radius: 25px;
+    border: 10px solid #fff;
+
+   }
+  
+   
+.card-body{
+   background-color: #ff00bf;
+    
+}
+/*footer styling*/
+.footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    
+}
+.social-media-footer i{
+    color: #000000;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: pink;
+    border-radius: 50%;
+    margin: 25px 6px;
+    margin-bottom: 60px;
+   
+}
+.social-media-footer a{
+    text-decoration: none;
+}
+
+
+/* end of footer */
+/* product page styling*/
+.product-page{
+    margin-top: 110px;
+    background-color: #000000;
+    }
+
+
+/* contact page styling*/
+.contact-page{
+    margin-top: 300px;
+}
+/* about page styling */
+.about-page{
+    background-color: #000000;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    
+   
+}
+.about-content{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+.about-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.video-container{
+    width: 400px;;
+    height: auto;
+   
+}
+.video2{
+    width: 100%;
+    height: 700px;
+}
+/* home styling */
+.home{
+    background-color: #000000;
+   
+}
+
+
+
+
+
+
